@@ -1,0 +1,3 @@
+class AppAsset {}
+
+class AppString {}
