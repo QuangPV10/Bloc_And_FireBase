@@ -8,8 +8,7 @@ import 'package:signin_signup_firebase_bloc/src/screens/onboarding_screen.dart';
 import 'package:signin_signup_firebase_bloc/src/screens/signup_screen.dart';
 
 class RouteController {
-  final bool isFirstLaunch;
-  RouteController(this.isFirstLaunch);
+  RouteController();
   MaterialPageRoute routePage(RouteSettings settings) {
     return MaterialPageRoute(
       builder: (_) {

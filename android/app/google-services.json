@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "815668107913",
+    "project_id": "bloc-and-firebase-d90ea",
+    "storage_bucket": "bloc-and-firebase-d90ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815668107913:android:a23d01c03282660c980458",
+        "android_client_info": {
+          "package_name": "com.example.signin_signup_firebase_bloc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815668107913-1s8t9o0p75kfmp52ngsjv2oh321ou2o2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoR9kOPPW-DHkzVEa4kZYQXNWSlahuVYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815668107913-1s8t9o0p75kfmp52ngsjv2oh321ou2o2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
