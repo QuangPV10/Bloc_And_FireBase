@@ -33,21 +33,37 @@ class LoginScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 30),
                     TextFormField(
+                      keyboardType: TextInputType.emailAddress,
                       decoration:
                           const InputDecoration(hintText: AppString.email, border: InputBorder.none, filled: true),
                     ),
                     const SizedBox(height: 15),
                     TextFormField(
+                      obscureText: true,
+                      obscuringCharacter: '⬤',
                       decoration:
                           const InputDecoration(hintText: AppString.password, border: InputBorder.none, filled: true),
                     ),
-                    const SizedBox(height: 20),
+                    Align(
+                      alignment: Alignment.centerRight,
+                      child: TextButton(
+                          style: TextButton.styleFrom(),
+                          onPressed: () => Navigator.of(context).pushNamed(RouteNames.forgotPassword),
+                          child: const Text(
+                            AppString.forgetPassword,
+                            style: TextStyle(color: Colors.black87, decoration: TextDecoration.underline),
+                          )),
+                    ),
+                    const SizedBox(height: 10),
                     const ButtonWidget(text: AppString.signIn)
                   ],
                 )),
               ),
               const SizedBox(height: 50),
-              const CardItem(text: AppString.signInWith),
+              const CardItem(
+                text: AppString.signInWith,
+                isLoginScreen: true,
+              ),
               const SizedBox(height: 60),
               Center(
                   child: RichText(
