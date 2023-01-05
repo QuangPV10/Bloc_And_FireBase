@@ -19,4 +19,5 @@ class AppString {
   static const createAccount = 'Create Your Account';
   static const loginHere = 'Login Here';
   static const forgetPassword = 'Forget Password';
+  static const buttonSend = 'Send';
 }
