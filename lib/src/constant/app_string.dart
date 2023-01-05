@@ -11,9 +11,12 @@ class AppString {
   static const signIn = 'Sign In';
   static const email = 'Email';
   static const password = 'Password';
-  static const confirmPassword = 'Confirm Password';
+  static const fullName = 'Full Name';
   static const notAccount = "Don't have account?";
   static const signUp = ' Sign Up';
   static const signInWith = '- Or sign in with - ';
-  static const signUpWith = '- Or sign up with - ';
+  static const alreadyAccount = 'Already Have An Account?';
+  static const createAccount = 'Create Your Account';
+  static const loginHere = 'Login Here';
+  static const forgetPassword = 'Forget Password';
 }
