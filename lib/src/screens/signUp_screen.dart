@@ -52,7 +52,10 @@ class SignUpScreen extends StatelessWidget {
                           const InputDecoration(hintText: AppString.password, border: InputBorder.none, filled: true),
                     ),
                     const SizedBox(height: 20),
-                    const ButtonWidget(text: AppString.signUp)
+                    ButtonWidget(
+                      text: AppString.signUp,
+                      onTap: () {},
+                    )
                   ],
                 )),
               ),
