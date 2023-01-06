@@ -20,4 +20,13 @@ class AppString {
   static const loginHere = 'Login Here';
   static const forgetPassword = 'Forget Password';
   static const buttonSend = 'Send';
+  static const invalidFullName = 'Full name cannot be left blank';
+  static const invalidEmail = 'Invalid Email';
+  static const invalidPassword =
+      'Password must have at least 8 characters, including uppercase, lowercase, numbers, special characters';
+  static const homeScreen = 'Home Screen';
+  static const loginFailNotification = 'Your Username or Password is incorrect, please try again!!';
+  static const sendingSuccess = 'Email is Sent. Please check in your email';
+  static const accountAlreadyExistMsg = 'Account already exists';
+  static const tryLoginButton = 'Try login';
 }

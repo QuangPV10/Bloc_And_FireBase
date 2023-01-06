@@ -3,7 +3,7 @@ import 'package:signin_signup_firebase_bloc/src/constant/app_color.dart';
 
 class ButtonWidget extends StatelessWidget {
   final String text;
-  final Function() onTap;
+  final Function()? onTap;
   const ButtonWidget({required this.text, required this.onTap, super.key});
 
   @override
