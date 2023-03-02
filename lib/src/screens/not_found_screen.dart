@@ -12,7 +12,7 @@ class NotFoundScreen extends StatelessWidget {
         child: Text(
           'Not Found Screen',
           textAlign: TextAlign.center,
-          style: theme.textTheme.headline1,
+          style: theme.textTheme.displayLarge,
         ),
       ),
     );

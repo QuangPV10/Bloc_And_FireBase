@@ -106,7 +106,7 @@ class SignUpScreen extends StatelessWidget {
                                 children: [
                                   Text(
                                     AppString.accountAlreadyExistMsg,
-                                    style: Theme.of(context).textTheme.bodyText2!.copyWith(
+                                    style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                                           color: Colors.red,
                                         ),
                                   ),
@@ -122,7 +122,7 @@ class SignUpScreen extends StatelessWidget {
                                     },
                                     child: Text(
                                       AppString.tryLoginButton,
-                                      style: Theme.of(context).textTheme.bodyText2!.copyWith(),
+                                      style: Theme.of(context).textTheme.bodyMedium!.copyWith(),
                                     ),
                                   ),
                                 ],

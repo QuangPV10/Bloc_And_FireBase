@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:signin_signup_firebase_bloc/src/constant/app_string.dart';
-import 'package:signin_signup_firebase_bloc/src/services/user_service/user_service_impl.dart';
 import 'package:signin_signup_firebase_bloc/src/widgets/card_item.dart';
 
 class ListItem extends StatelessWidget {
@@ -24,7 +23,7 @@ class ListItem extends StatelessWidget {
                     .map((image) => CardItem(
                         image: image,
                         onTap: () {
-                          UserServiceImpl().signInWithGoogle();
+                          // UserServiceImpl().signInWithGoogle();
                         }))
                     .toList(),
               )

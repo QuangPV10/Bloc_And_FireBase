@@ -1,6 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:google_sign_in/google_sign_in.dart';
 import 'package:signin_signup_firebase_bloc/src/enum/firebase_auth_enum.dart';
 import 'package:signin_signup_firebase_bloc/src/services/user_service/user_service.dart';
 
@@ -52,12 +51,12 @@ class UserServiceImpl extends UserService {
     });
   }
 
-  Future signInWithGoogle() async {
-    final googleUser = await GoogleSignIn().signIn();
-    final googleAuth = await googleUser!.authentication;
+  // Future signInWithGoogle() async {
+  //   final googleUser = await GoogleSignIn().signIn();
+  //   final googleAuth = await googleUser!.authentication;
 
-    final credential = GoogleAuthProvider.credential(accessToken: googleAuth.accessToken, idToken: googleAuth.idToken);
+  //   final credential = GoogleAuthProvider.credential(accessToken: googleAuth.accessToken, idToken: googleAuth.idToken);
 
-    return await _auth.signInWithCredential(credential);
-  }
+  //   return await _auth.signInWithCredential(credential);
+  // }
 }
